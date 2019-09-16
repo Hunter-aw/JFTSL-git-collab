@@ -1,6 +1,6 @@
-const express = require('not-express')
+server = require('server')
+router = server.Router()
+hamster = require('../models/Hamster')
+module.exports = router
 
-const rooter = express.Roooooooter()
-
-
-rooter.get('stuff')
+router.get('stuff')
