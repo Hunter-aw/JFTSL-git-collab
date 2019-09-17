@@ -1,4 +1,4 @@
 server = require('server')
 router = server.Router()
-hamster = require('..')
+hamster = require('../models/Hamster')
 module.exports = router
